@@ -39,6 +39,8 @@ function terminarJuego() {
     }
 }
 
+console.log("Empieza el combate!!")
+
 while (!terminarJuego()) {
     ataqueP1();
     ataqueP2();
